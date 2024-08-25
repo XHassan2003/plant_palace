@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Palace</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Nav Bar -->
+    
+    <nav>
+        <h3>
+            <i class="fa-solid fa-seedling"></i>
+            Plant Palace
+        </h3>
+        <div class="nav-container">
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#hero-page">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contactus">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="nav-icons">
+            <!-- <button><i class="fa-solid fa-xmark"></i></button> -->
+            <button class="icon-button" id="menu-btn"><i id="menu-icon" class="fa-solid fa-bars"></i></button>
+            <button class="icon-button" id="cart-btn">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span class="notification" id="total-cart-items">0</span>
+            </button>
+
+        </div>
+    </nav>
+
+    <!-- Cart -->
+
+    <div class="cart" id="cart">
+        <button class="icon-button" id="cart-close-icon"><i class="fa-solid fa-xmark"></i></button>
+        <h1>Your Cart</h1>
+        <div class="cart-items-container">
+            <p>No Products Selected</p>
+        </div>
+        <div class="details">
+            <p>Total Bill : $<span class="total-bill"></span></p>
+            <button class="checkout" id="checkout">Checkout</button>
+        </div>
+    </div>
+
+    <!-- Hero Page -->
+    <div id="hero-page" class="hero-page">
+        <div class="bg-image"></div>
+        <div class="tag-lines">
+            <h1>Welcome to <span>Plant Palace</span></h1>
+            <p>Elevate your living space with our exquisite indoor plants. Browse our collection today and experience the joy of nurturing and enjoying beautiful, thriving greenery.
+            </p>
+            <div class="header-button">
+                <div class="buy-button-container">
+                    <a href="#products" class="buy-button">Buy Now</a>
+                    <a href="#contactus" class="contact-button">Contact Us</a>
+                </div>
+            </div>
+        </div>
+        <div class="vector-image" id="animation-container"></div>
+    </div>
+    
+    <!-- About -->
+    <div id="about" class="about">
+        <div class="about-content">
+            <h1>About Plant Palace</h1>
+            <p>At Plant Palace, our mission is to enhance your space with the therapeutic benefits and aesthetic charm of plants. Whether you're a plant enthusiast or a newcomer, we provide the resources and support you need to create a healthier and more inviting atmosphere.</p>
+        </div>
+        <div class="about-image">
+            <img src="./assests/pexel-3126421.jpeg" alt="Beautiful indoor plants" />
+        </div>
+    </div>
+
+    <!-- Products -->
+        <section id="products" class="products">
+            <h1>Our Products</h1>
+            <div class="search-container">
+                <input type="text" placeholder="Search Products" class="search-box">
+            </div>
+            <div class="all-products" id="all-products">
+                <div class="product">
+                    <div class="product-image">
+                        <img src="./assests/plant1.jpeg" alt="">
+                    </div>
+                    
+                    <div class="product-details">
+                        <h4 class="product-title">
+                            Succulent 
+                        </h4>
+                        <p class="product-price">$50</p>
+                        <a href="#" class="product-btn">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product-image">
+                        <img src="./assests/plant2.jpeg" alt="">
+                    </div>
+                    <div class="product-details">
+                        <h4 class="product-title">
+                            Echeveria
+                        </h4>
+                        <p class="product-price">$120</p>
+                        <a href="#" class="product-btn">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product-image">
+                        <img src="./assests/plant3.jpeg" alt="">
+                    </div>
+                    <div class="product-details">
+                        <h4 class="product-title">
+                            Sedum mendozae
+                        </h4>
+                        <p class="product-price">$100</p>
+                        <a href="#" class="product-btn">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product-image">
+                        <img src="./assests/plant4.jpeg" alt="">
+                    </div>
+                    <div class="product-details">
+                        <h4 class="product-title">
+                            Swiss cheese plant
+                        </h4>
+                        <p class="product-price">$70</p>
+                        <a href="#" class="product-btn">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product-image">
+                        <img src="./assests/plant5.jpeg" alt="">
+                    </div>
+                    <div class="product-details">
+                        <h4 class="product-title">
+                            Mammillaria elongata
+                        </h4>
+                        <p class="product-price">$50</p>
+                        <a href="#" class="product-btn">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product-image">
+                        <img src="./assests/plant6.jpg" alt="">
+                    </div>
+                    <div class="product-details">
+                        <h4 class="product-title">
+                            Fatalii
+                        </h4>
+                        <p class="product-price">$80</p>
+                        <a href="#" class="product-btn">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product-image">
+                        <img src="./assests/plant7.jpeg" alt="">
+                    </div>
+                    <div class="product-details">
+                        <h4 class="product-title">
+                            Aloe vera
+                        </h4>
+                        <p class="product-price">$30</p>
+                        <a href="#" class="product-btn">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product-image">
+                        <img src="./assests/plant8.jpeg" alt="">
+                    </div>
+                    <div class="product-details">
+                        <h4 class="product-title">
+                            Foxtail agave
+                        </h4>
+                        <p class="product-price">$40</p>
+                        <a href="#" class="product-btn">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product-image">
+                        <img src="./assests/plant9.jpeg" alt="">
+                    </div>
+                    <div class="product-details">
+                        <h4 class="product-title">
+                            Peacock plant
+                        </h4>
+                        <p class="product-price">$75</p>
+                        <a href="#" class="product-btn">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product-image">
+                        <img src="./assests/plant10.jpeg" alt="">
+                    </div>
+                    <div class="product-details">
+                        <h4 class="product-title">
+                            Cereus jamacarut
+                        </h4>
+                        <p class="product-price">$25</p>
+                        <a href="#" class="product-btn">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Coming Soon -->
+        
+        <div class="container-coming-soon">
+            <div class="content-coming-soon">
+                <h1>Product Coming Soon</h1>
+                <p>Hello plant lovers! We're currently working on our new product for all things green and lush. Add your email below to stay up-to-data with announcements and launch details.</p>
+                <form class="coming-soon-form">
+                    <input type="email" placeholder="Email Address" required class="input-field">
+                    <button type="submit" class="notify-button">Notify Me</button>
+                </form>
+            </div>
+            <div class="image-coming-soon">
+                <img src="./assests/coming-soon-plant.avif" alt="">
+            </div>
+        </div>
+        
+        <!-- Contact Us -->
+
+        <section id="contactus" class="contact-us">
+            <div class="content-contact">
+                <h1>Contact Us</h1>
+                <p>We’d love to hear from you! Whether you have questions about our plants, want to learn more about our services, our team is here to help.</p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-box">
+                        <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <div class="contact-text">
+                            <h3>Address</h3>
+                            <p>123 street Road,<br>Karachi,Pakistan,<br>12345</p>
+                        </div>
+                    </div>
+                    <div class="contact-box">
+                        <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                        <div class="contact-text">
+                            <h3>Phone</h3>
+                            <p>+921123456789</p>
+                        </div>
+                    </div>
+                    <div class="contact-box">
+                        <div class="icon"><i class="fa-regular fa-envelope"></i></div>
+                        <div class="contact-text">
+                            <h3>Email</h3>
+                            <p>XYZ@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <h2>Send Message</h2>
+                        <div class="input-box">
+                            <input type="text" placeholder="Full Name" required>
+                        </div>
+                        <div class="input-box">
+                            <input type="email" placeholder="Email" required>
+                        </div>
+                        <div class="input-box">
+                            <textarea required="required" placeholder="Type your Message"></textarea>
+                        </div>
+                        <div class="input-box">
+                            <input type="submit" value="Send" required>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        
+        <footer>
+            <!-- <div id="back-to-top" class="foot-panel1">
+                Back to Top
+            </div> -->
+            <div class="foot-panel1">
+                <ul>
+                    <p>About Plant Palace</p>
+                    <a href="#">Our Story</a>
+                    <a href="#">Sustainability</a>
+                    <a href="#">Plant Care Tips</a>
+                    <a href="#">Customer Reviews</a>
+                </ul>
+                <ul>
+                    <p>Shop Plants</p>
+                    <a href="#">Indoor Plants</a>
+                    <a href="#">Outdoor Plants</a>
+                    <a href="#">Planters & Pots</a>
+                    <a href="#">Plant Accessories</a>
+                </ul>
+                <ul>
+                    <p>Help & Support</p>
+                    <a href="#">FAQs</a>
+                    <a href="#">Shipping Information</a>
+                    <a href="#">Return Policy</a>
+                    <a href="#">Contact Us</a>
+                </ul>
+                <ul>
+                    <p>Join Us</p>
+                    <a href="#">Become a Member</a>
+                    <a href="#">Newsletter Signup</a>
+                    <a href="#">Follow us on Instagram</a>
+                    <a href="#">Join our Community</a>
+                </ul>
+            </div>
+            <div class="foot-panel2">
+                <div class="pages">
+                    <a>Conditions of Use</a>
+                    <a>Privay Notice</a>
+                    <a>Your Ads Privacy Choices</a>
+                </div>
+                <div class="copyright">
+                    © 2003-2024, PlantPalace.com, Inc. or its affiliates
+                </div>
+            </div>
+        </footer>
+    
+
+    <script src="https://kit.fontawesome.com/d8131fb824.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.9.6/lottie.min.js"></script>
+
+    <script src="./script.js"></script>
+</body>
+</html>
